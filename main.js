@@ -25,6 +25,7 @@ const key = "853b5d2ce3bb8180f0b86df75c062cd5";
 //check if browser support geolocation
 if ('geolocation' in navigator) {
     navigator.geolocation.getCurrentPosition(setPosition, showError);
+    //how to reshedule my current location 
     //exp for this, very important, navigator, geolocation, getCurrentlocation
     // https://www.w3schools.com/html/html5_geolocation.asp
     // explanation in operator
